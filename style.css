@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .register-form {
     display: flex;
     height: 300px; 
@@ -16,26 +17,34 @@ body {
     justify-content: center;
     gap: 0.5rem;
 }
+
 .buttons {
-display: flex;
-justify-content: center;
-flex-direction: row;
+height: 25px;
+border: none;
+border-radius: 2px;
+color: rgb(7, 67, 7);
+padding: 5px;
 }
+
 h2{
     text-align: center;
     margin-top: 40px;
     color: rgb(211, 212, 213);
 }
+
 h3 {
     text-align: center;
     color: rgb(255, 153, 0);
 }
+
 .text-appearance {
 color: rgb(221, 221, 221);
 }
+
 #gender {
     color: rgb(221, 221, 221);
 }
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -45,9 +54,11 @@ color: rgb(221, 221, 221);
     width: 700px;
     gap: 10px;
 }
+
 .welcome {
     color: rgb(255, 153, 0);
 }
+
 .signin-form {
     display: flex;
     flex-direction: column;
@@ -55,33 +66,57 @@ color: rgb(221, 221, 221);
     align-items: center;
     gap: 2rem;
 }
+
 .anchor-button {
     font-weight: bold;
     color:rgb(255, 153, 0);
     text-decoration: none;
 }
+
 .register-heading {
     text-align: center;
     margin-top: 200px;
     color: rgb(255, 153, 0);
-}
-.error-block {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    background-color: rgba(140, 142, 140, 0.272);
 }
 
 .form-wrapper {
     display: flex;
     align-items: center;
 }
+
 h5 {
     text-align: center;
     color:rgb(255, 153, 0);
 }
+
 .register-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 5%;
+    background-color:rgb(91, 98, 114);
+    width: 700px;
+}
+
+.input-field {
+    outline: none;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+    padding-left: 5px;
+}
+
+.error-container {
+    display: flex;
+    background-color: rgba(174, 6, 6, 0.674);
+    justify-content: center;
+    border-radius: 3px;     
+    padding: 0 0 20px 20px;
+    width: 100%;
+}
+
+.error-text {
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
