@@ -52,30 +52,7 @@
 
         }else{
             echo "Sorry couldnot do that right now !";
-        }
-
-        
-            
-
-        
-
-
-
-        // function hasSpace($username) {
-        //     return preg_match('/\s/', $username);
-        // }
-
-        // function hasSpecialCharacterUser($username){
-        //     return preg_match("/[$&+,:;=?@#|'<>.-^*()%!\s]+$/", $username);
-        // }
-
-        // function hasBothCondition($username) {
-        //     if (preg_match('/\s/', $username) && preg_match('/[^A-Za-z0-9\s]/', $username)) {
-        //         return true;
-        //     } else {
-        //         return false;
-        //     }
-        // }
+       }
         
 
         function hasUpperCase($password) {
